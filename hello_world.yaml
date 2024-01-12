@@ -4,7 +4,7 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-    - name: "Install telnet"
+    - name: Install telnet
       yum:
         name: telnet
-      state: present
+        state: present
